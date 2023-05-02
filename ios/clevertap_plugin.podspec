@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source_files             = 'Classes/**/*'
   s.public_header_files      = 'Classes/**/*.h'
   s.dependency               'Flutter'
-  s.dependency               'CleverTap-iOS-SDK', '3.10.0'
   spec.dependency            'CleverTap-iOS-SDK', :git => 'https://github.com/somtoZikora/clevertap-ios-sdk.git', :branch => 'master'
   s.ios.deployment_target    = '9.0'
 end
